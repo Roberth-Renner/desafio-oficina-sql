@@ -1,4 +1,4 @@
-																-- MANIPULAÇÃO DOS DADOS --
+					         	-- MANIPULAÇÃO DOS DADOS --
                                                                 
                                                                 
 -- QUANTAS EQUIPES E QUANTOS FUNCIONÁRIOS TRABALHAM EM CADA UMA DELAS --
