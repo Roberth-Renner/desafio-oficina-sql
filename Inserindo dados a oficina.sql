@@ -7,7 +7,7 @@
 
 
 insert into Cliente values(1, 1, 'Venancio', 'Silva', 18273837483, 31989673452),
-						  (2, 0, 'Ivanete', 'Silva', 18276537483, 31459673452),
+			  (2, 0, 'Ivanete', 'Silva', 18276537483, 31459673452),
                           (3, 1, 'Luiza', 'Silva', 62718293784, 21983728374),
                           (4, 1, 'Alfrida', 'Candida', 89281736749, 11928394637),
                           (5, 1, 'Sandra', 'Moraes', 73829382738, 41768003017),
@@ -20,18 +20,18 @@ insert into Cliente values(1, 1, 'Venancio', 'Silva', 18273837483, 31989673452),
 -- INSERINDO VALORES A TABELA SERVICOS --
 
 insert into Servicos values(1, 'Manutenção corretiva', 'Refazer o motor', 1273838), 
-						   (2, 'Manutenção corretiva', 'Troca fárois dianteiros', 1273882), 
-						   (3, 'Manutenção corretiva', 'Remoção e Inseerção de novo Para-Choque traseiro', 1273883), 
-						   (4, 'Revisão periódica', 'Checagem de óleo', 0123763),
-						   (5, 'Revisão periódica', 'Consumo de pastilhas de freio', 0123838),
-						   (6, 'Manutenção corretiva', 'Troca jogo de Molas da suspensão', 1273884),
-						   (7, 'Manutenção corretiva', 'Troca da Caixa de Câmbio', 1273385); 
+			   (2, 'Manutenção corretiva', 'Troca fárois dianteiros', 1273882), 
+			   (3, 'Manutenção corretiva', 'Remoção e Inseerção de novo Para-Choque traseiro', 1273883), 
+			   (4, 'Revisão periódica', 'Checagem de óleo', 0123763),
+			   (5, 'Revisão periódica', 'Consumo de pastilhas de freio', 0123838),
+			   (6, 'Manutenção corretiva', 'Troca jogo de Molas da suspensão', 1273884),
+			   (7, 'Manutenção corretiva', 'Troca da Caixa de Câmbio', 1273385); 
                            
                            
 -- INSERINDO VALORES A TABELA PECAS --
 
 insert into Pecas values(1, 'Carroceria', 'Para-Choque traseiro'), 
-						(2, 'Sistema de transmissão', 'Caixa de Câmbio'), 
+			(2, 'Sistema de transmissão', 'Caixa de Câmbio'), 
                         (3, 'Sistema de Suspensão', 'Molas da suspensão'), 
                         (4, 'Sistema de Freio', 'Jogo de Discos'), 
                         (5, 'Componentes elétricos', 'Fárois dianteiros'),
@@ -45,13 +45,13 @@ insert into Pecas values(1, 'Carroceria', 'Para-Choque traseiro'),
 -- INSERINDO VALORES A TABELA EQUIPE --
 
 insert into Equipe values(1, 'Carroceria e Componentes elétricos'),
-						 (2, 'Motor e Sistema de transmissão'),
+			 (2, 'Motor e Sistema de transmissão'),
                          (3, 'Sistema de Suspensão e Sistema de Freio');
                          
 -- INSERINDO VALORES A TABELA MECANICOS --
 
 insert into Mecanicos values(1, 14982736748, 'Alfredo', 'Eisten', 'BeloHorizonte-Jardim\Rua Manguabeiras 43 - MG', 'Carroceria', 1),
-							(2, 28378192893, 'Alberto', 'Erigon', 'BeloJardim-Cascata\Rua fernao dias 98 - MG', 'Sistema de transmissão', 2),
+			    (2, 28378192893, 'Alberto', 'Erigon', 'BeloJardim-Cascata\Rua fernao dias 98 - MG', 'Sistema de transmissão', 2),
                             (3, 12738392838, 'Pablo', 'Victor', 'Ibirito-Borda\Rua Jatola 43 - MG', 'Carroceria', 1),
                             (4, 14982776787, 'Rich', 'Vacuo', 'Jatoba-Guajura\Rua França 52 - MG', 'Componentes elétricos', 1),
                             (5, 14982736123, 'Socrates', 'Marx', 'QuintaFeira-Jurdua\Rua Caratinga 89 - MG', 'Sistema de Freio', 3),
@@ -65,7 +65,7 @@ insert into Mecanicos values(1, 14982736748, 'Alfredo', 'Eisten', 'BeloHorizonte
 --  INSERINDO VALORES A TABELA OS(ORDEM DE SERVIÇO) --
 																						
 insert into OrdemServico values(1,1,1,00001, '2023-09-02', 'Orçamento Aprovado', '2023-09-10', 2551.39), 
-							   (2,2,2,00002, '2023-09-02', 'Orçamento Reprovado', '2023-12-31', 15071.20), 
+			       (2,2,2,00002, '2023-09-02', 'Orçamento Reprovado', '2023-12-31', 15071.20), 
                                (3,3,3,00003, '2023-09-02', 'Orçamento Aprovado', '2023-09-02', 500.67), 
                                (4,2,4,00004, '2023-09-02', 'Orçamento Aprovado', '2023-09-10', 4050.70), 
                                (5,1,5,00005, '2023-09-11', 'Orçamento Aprovado', '2023-09-11', 25.90), 
@@ -78,7 +78,7 @@ insert into OrdemServico values(1,1,1,00001, '2023-09-02', 'Orçamento Aprovado'
 -- INSERINDO VALORES A TABELA DE RELACAO N PARA M ENTRE PECAS E OS --
 
 insert into Relacao_Os_Pecas values(1,1,1,1,1550.50),
-								   (2,2,6,1,70.70),
+				   (2,2,6,1,70.70),
                                    (3,4,2,1,2550.70),
                                    (4,5,5,2,5.50),
                                    (5,7,3,4,150.45),
@@ -91,7 +91,7 @@ insert into Relacao_Os_Pecas values(1,1,1,1,1550.50),
 -- INSERINDO VALORES A TABELA DE RELACAO N PARA M ENTRE PECAS E OS --
 
 insert into Relacao_Os_Servicos values(1,1,3, 1000.89),
-									  (2,2,1, 15000.50),
+				      (2,2,1, 15000.50),
                                       (3,3,5, 500.67),
                                       (4,4,7, 1500),
                                       (5,5,2, 5.50),
