@@ -1,6 +1,6 @@
 
 
-																-- 	INSERINDO DADOS --
+							-- 	INSERINDO DADOS --
                                                                 
                                                                 
 -- INSERINDO DADOS NA TABELA CLIENTE --
